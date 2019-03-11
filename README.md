@@ -1,12 +1,10 @@
-### MarketOne
+### MarketOne International
 
- * Recreation of MarketOne landing page
+ * Recreation of MarketOne International landing page
 
-## Visit live
+## [Visit Live](https://rowgregory.github.io/MartketOne-International/)
 
-  * [MarketOne](https://rowgregory.github.io/martketOne/)
 
- 
 ## Technologies Used
 
  * HTML
@@ -17,16 +15,14 @@
  * jQuery Validation Plugin
  * SVG
 
- 
-
-## Prerequisites
+ ## Prerequisites
 
  - Browser
  
 
 ## Built With
 
- * Visiual Studio COde
+ * Visiual Studio Code
  
 
 ## Authors
