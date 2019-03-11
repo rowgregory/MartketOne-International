@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Favicon -->
+    <link rel="icon" href="/images/favicon-16x16.png" type="image/gif">
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Reset -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- jQuery Validation-->
+    <link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js""></script>
+
+    <title>MarketOne</title>
+</head>
+
+<body>
+
+    <div class="container-1">
+        <div class="box-1"></div>
+        <div class="market-logo"></div>
+        <div class="navbar">
+            <a class="nav-link" href="#">ABOUT US</a>
+            <a class="nav-link" href="#">SERVICES</a>
+            <a class="nav-link" href="#">PORTFOLIO</a>
+            <a class="nav-link" href="#">CONTACT US</a>
+        </div>
+        <div class="body-container">
+            <div class="nested-box-1">
+                <div class="nested-box-1-1">
+                    <h1 class="welcome">Welcome </h1><br>
+                    <p class="sample-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="#"
+                            class="paragraph-link">Duis aute irure</a> dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <hr>
+                <div class="nested-box-1-2">
+                    <div class="nested-box-1-2-1">
+                        <div class="picture-1">
+                            <img src="images/profile_1.jpg">
+                        </div>
+                        <div class="bio-1">
+                            <h3>Profile Name Here</h3>
+                            <p class="_bio1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices congue
+                                vulputate. Aliquam et velit sapien.<br>
+                                Aenean vel tortor id arcu sodales tincidunt. Aliquam nec fringilla dolor. Vivamus
+                                egestas </p><br>
+                            <a class="read-more" href="#">READ MORE <i class="fas fa-caret-right caret"></i></a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="nested-box-1-2-2">
+                        <div class="picture-2">
+                            <img src="images/profile_2.jpg">
+                        </div>
+                        <div class="bio-2">
+                            <h3>Profile Name Here</h3>
+                            <p class="_bio2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a diam tincidunt, congue
+                                turpis porta, semper sem.
+                                Vestibulum<br> sodales nulla non justo sollicitudin, egestas fringilla justo euismod sit
+                                amet adipiscing.</p><br>
+                            <a class="read-more" href="#">READ MORE <i class="fas fa-caret-right caret"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="nested-box-2">
+                <form class="cmxform" id="signupForm" autocomplete="on">
+                    <div class="form-wrapper"">
+                        <div class=" block">
+                            <label class='first-name' for="inputFirstName">First Name*</label></label>
+                            <input type="firstname" name="firstname" class="form-control" id="inputFirstName" minlength="2" placeholder="">
+                        </div>
+                        <div class="block">
+                            <label for="inputLastName">Last name*</label>
+                            <input type="lastname" name="lastname" class="form-control" id="inputLastName" placeholder="" data-validation="email required">
+                        </div>
+                        <div class="block">
+                            <label for="inputTitle">Title*</label>
+                            <input type="title" name="title" class="form-control" id="inputTitle" placeholder="">
+                        </div>
+                        <div class="block">
+                            <label for="inputEmail4">Email Address*</label>
+                            <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="">
+                        </div>
+                        <div class="block">
+                            <label for="inputPhone">Phone*</label>
+                            <input type="phone" name="phone" class="form-control" id="inputPhone">
+                        </div>
+                        <div class="block">
+                            <label for="inputState">Already a client?*</label>
+                            <select id="inputState" class="form-control required" name="input">
+                                <option value="" selected>-- Please Select --</option>
+                                <option value="o1">Yes</option>
+                                <option value="o2">No</option>
+                            </select>
+                        </div>
+                        <div class="block">
+                            <button type="submit" class="btn contact-btn">Contact Us</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Copyright @ 2013 MarketOne International. All rights reserved</p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <!-- Local JS -->
+    <script type="text/javascript" src="js/sign-up-form.js"></script>
+
+</body>
+</html>
