@@ -56,7 +56,7 @@ $().ready(function() {
             }
 
             $.ajax({
-                url: "/images/iconfinder_correct_3855625.svg",
+                url: "images/iconfinder_correct_3855625.svg",
                 dataType: 'html',
                 type: 'GET',
                 success: function(data) {         
@@ -93,7 +93,7 @@ $().ready(function() {
 });
 
 $('.nav-link').each(function(){
-    $(this).append(' <img src="../images/mobile_link_arrow.png">')
+    $(this).append('<img src="images/mobile_link_arrow.png">')
     $(this).addClass('nav-link-button');
            
 });
